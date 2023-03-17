@@ -1,6 +1,5 @@
 import React, {FC, useEffect} from 'react';
 import {useTypedSelector} from "../hooks/useTypedSelector";
-import {useAppDispatch} from "../hooks/useAppDispatch";
 import {fetchUsers} from "../store/action-creator/user";
 import {useActions} from "../hooks/useActions";
 
