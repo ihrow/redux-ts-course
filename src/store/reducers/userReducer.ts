@@ -16,6 +16,5 @@ export const userReducer = (state = initialState, action: UserAction): UserState
       return {loading: false, error: action.payload, users: []};
     default:
       return state;
-
   }
 }
